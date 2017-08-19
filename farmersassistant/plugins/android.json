@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.farmers.assistant"
+        }
+    }
+}

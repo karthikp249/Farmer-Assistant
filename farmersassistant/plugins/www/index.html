@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <title>Farmer's Assistant</title>
+</head>
+
+<body>
+    <a href="#" id="refresh" class="btn btn-primary btn-lg" style="width:100%;">Farmer's Assistant</a>
+    <!-- <ul class="nav nav-pills nav-stacked">
+      <li class="active disabled"><a href="#"><b>Farmer's Assistant</b> </a></li>
+    </ul> -->
+    <br>
+    <br>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Temperature</h3>
+      </div>
+      <div class="panel-body" id="data1">
+        0.00
+      </div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Humidity</h3>
+      </div>
+      <div class="panel-body" id="data2">
+        0.00
+      </div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Moisture Sensor 1</h3>
+      </div>
+      <div class="panel-body" id="data3">
+        0.00
+      </div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Moisture Sensor 2</h3>
+      </div>
+      <div class="panel-body" id="data4">
+        0.00
+      </div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Moisture Sensor 3</h3>
+      </div>
+      <div class="panel-body" id="data5">
+        0.00
+      </div>
+    </div>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Rain</h3>
+      </div>
+      <div class="panel-body" id="data6">
+        NO
+      </div>
+    </div>
+
+    <a name="scrollhere"></a>
+
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Irrigating</h3>
+      </div>
+      <div class="panel-body" id="data7">
+        NO
+      </div>
+      <a  href="#scrollhere" id="switchon" class="btn btn-info" >Switch ON</a>
+      <a  href="#scrollhere" id="switchoff" class="btn btn-danger" >Switch OFF</a>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
